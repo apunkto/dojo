@@ -2,7 +2,7 @@ package finder;
 
 import lombok.Data;
 
-public class Finder3 {
+public class BinaryFinder {
 
   public Object find(int element, int... array) {
 

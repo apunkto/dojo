@@ -23,7 +23,7 @@ public class Finder {
   }
 
   private int checkPosition(int element, int pos) {
-    return (element == array[pos]) ? pos : -1;
+    return element == array[pos] ? pos : -1;
   }
 
 }
